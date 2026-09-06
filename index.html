@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pontotech — Segurança Eletrônica e Tecnologia</title>
+<meta name="description" content="Pontotech: controle de acesso facial, CFTV, relógio de ponto em nuvem, catracas e automação. 8 anos de mercado levando segurança e tecnologia a condomínios e empresas em Pernambuco.">
+<meta name="theme-color" content="#0A0A0A">
+<meta property="og:title" content="Pontotech — Segurança Eletrônica e Tecnologia">
+<meta property="og:description" content="Controle de acesso facial, CFTV, interfonia, automação e alarmes para condomínios e empresas.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/images/logo-pontotech.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://pontotechpe.lovable.app">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grid-field" aria-hidden="true"></div>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a href="#top" class="brand" aria-label="Pontotech — início">
+      <img class="brand-mark" src="assets/images/logo-pontotech.jpg" alt="Logo Pontotech">
+      <span class="brand-name">PONTO<span>TECH</span></span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#servicos" class="nav-link">Serviços</a></li>
+      <li><a href="#cases" class="nav-link">Cases</a></li>
+      <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+      <li><a href="#parceiros" class="nav-link">Parceiros</a></li>
+      <li><a href="#contato" class="nav-link">Contato</a></li>
+      <li><a href="https://wa.me/5581986879234?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Pontotech%20e%20gostaria%20de%20um%20or%C3%A7amento." class="nav-cta nav-cta-mobile" target="_blank" rel="noopener">Pedir orçamento</a></li>
+    </ul>
+
+    <a href="https://wa.me/5581986879234?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Pontotech%20e%20gostaria%20de%20um%20or%C3%A7amento." class="nav-cta" target="_blank" rel="noopener">Pedir orçamento</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </div>
+</nav>
+<div class="nav-scrim" id="navScrim"></div>
+
+<div class="page-transition" id="pageTransition" aria-hidden="true">
+  <div class="pt-panel left"></div>
+  <div class="pt-panel right"></div>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="hero-photo" style="background-image:url('https://pontotechpe.lovable.app/assets/hero-bg-S5xSE15v.jpg')" aria-hidden="true"></div>
+  <canvas id="bgCanvas" aria-hidden="true"></canvas>
+  <div class="hero-diamond d1" aria-hidden="true"><svg viewBox="0 0 100 100"><rect x="20" y="20" width="60" height="60" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1" transform="rotate(45 50 50)"/></svg></div>
+  <div class="hero-diamond d2" aria-hidden="true"><svg viewBox="0 0 100 100"><rect x="20" y="20" width="60" height="60" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1" transform="rotate(45 50 50)"/></svg></div>
+  <div class="brackets" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <div class="hero-spot" id="heroSpot" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="hero-copy" id="heroCopy">
+      <span class="hero-tag">SEGURANÇA ELETRÔNICA · CONTROLE DE ACESSO</span>
+      <h1>Tecnologia e segurança para <em>quem não pode parar</em></h1>
+      <p class="lead">Controle de acesso, CFTV inteligente e automação — engenharia de segurança de alto padrão, instalada com precisão.</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/5581986879234?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Pontotech%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn btn-primary" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4C7.1 4 3.07 8.03 3.07 12.98c0 1.62.44 3.19 1.26 4.58L3 21.5l4.06-1.3a8.98 8.98 0 0 0 4.99 1.48h.01c4.95 0 8.98-4.03 8.98-8.98a8.9 8.9 0 0 0-2.44-6.38zm-5.55 13.8a7.44 7.44 0 0 1-3.8-1.04l-.27-.16-2.83.91.91-2.76-.18-.28a7.45 7.45 0 0 1-1.15-3.99c0-4.13 3.37-7.5 7.51-7.5 2 0 3.89.78 5.3 2.2a7.45 7.45 0 0 1 2.2 5.31c0 4.14-3.37 7.51-7.51 7.51h-.18zm4.11-5.62c-.22-.11-1.32-.65-1.53-.73-.2-.08-.35-.11-.5.11-.15.22-.58.73-.71.88-.13.15-.26.16-.48.05-.22-.11-.94-.35-1.79-1.1-.66-.59-1.11-1.32-1.24-1.54-.13-.22-.01-.34.1-.45.1-.1.22-.26.33-.39.11-.13.15-.22.22-.37.07-.15.04-.28-.02-.39-.06-.11-.5-1.21-.69-1.66-.18-.43-.37-.38-.5-.38h-.43c-.15 0-.39.06-.59.28-.2.22-.78.76-.78 1.86s.8 2.16.91 2.31c.11.15 1.57 2.4 3.81 3.36.53.23.95.37 1.27.47.53.17 1.02.15 1.4.09.43-.06 1.32-.54 1.5-1.06.19-.52.19-.96.13-1.06-.06-.09-.2-.15-.42-.26z"/></svg>
+          Falar no WhatsApp
+        </a>
+        <a href="#servicos" class="btn btn-ghost">Ver serviços</a>
+      </div>
+    </div>
+
+    <div class="hud" id="heroHud">
+      <div class="hud-top">
+        <span>RELÓGIO DE PONTO · PONTO EM NUVEM</span>
+        <span class="status"><span class="dot"></span>ONLINE</span>
+      </div>
+
+      <div class="hero-product">
+        <div class="hero-product-visual">
+          <img src="https://pontotechpe.lovable.app/__l5e/assets-v1/6de39307-35ed-470e-97fc-70dd5ffe0ce0/control-id-facial.webp" alt="Relógio de ponto Control iD com reconhecimento facial" loading="lazy">
+        </div>
+        <h3>Gestão de ponto sem complicações.</h3>
+        <p>Controle a jornada e acompanhe a gestão da sua empresa de onde estiver, com praticidade, segurança e tecnologia.</p>
+        <div class="hero-product-tag">PONTOTECH — simplicidade para você e sua empresa.</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ SERVICES ============ -->
+<section id="servicos">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">O QUE FAZEMOS</div>
+      <h2>Serviços completos, de ponta a ponta</h2>
+      <p>Cuidamos de cada camada da segurança do seu condomínio, comércio ou empresa.</p>
+    </div>
+
+    <div class="carousel reveal" id="carousel" role="region" aria-roledescription="carrossel" aria-label="Serviços Pontotech">
+      <div class="carousel-track" id="carouselTrack">
+        <div class="carousel-slide">
+          <div class="cs-bg" style="background-image:url('https://pontotechpe.lovable.app/assets/facial-DEUvkdT8.jpg')"></div>
+          <img src="https://pontotechpe.lovable.app/assets/facial-DEUvkdT8.jpg" alt="Controle de Acesso Facial" loading="lazy">
+          <span class="service-code">AC-01</span>
+          <div class="cs-caption"><b>Controle de Acesso Facial</b><span>Reconhecimento biométrico de alta precisão para entradas inteligentes, rápidas e seguras.</span></div>
+        </div>
+        <div class="carousel-slide">
+          <div class="cs-bg" style="background-image:url('https://pontotechpe.lovable.app/assets/cftv-intelbras-C7BExKKZ.jpg')"></div>
+          <img src="https://pontotechpe.lovable.app/assets/cftv-intelbras-C7BExKKZ.jpg" alt="CFTV Intelbras" loading="lazy">
+          <span class="service-code">CF-02</span>
+          <div class="cs-caption"><b>CFTV Inteligente</b><span>Câmeras Intelbras IP 4K com IA, visão noturna e monitoramento remoto pelo aplicativo.</span></div>
+        </div>
+        <div class="carousel-slide">
+          <div class="cs-bg" style="background-image:url('https://pontotechpe.lovable.app/assets/interfonia-gC4asqQs.jpg')"></div>
+          <img src="https://pontotechpe.lovable.app/assets/interfonia-gC4asqQs.jpg" alt="Interfonia" loading="lazy">
+          <span class="service-code">IF-03</span>
+          <div class="cs-caption"><b>Interfonia</b><span>Sistemas de interfonia digital com áudio cristalino e integração total ao controle de acesso.</span></div>
+        </div>
+        <div class="carousel-slide">
+          <div class="cs-bg" style="background-image:url('https://pontotechpe.lovable.app/assets/gate-Bp-dmRAk.jpg')"></div>
+          <img src="https://pontotechpe.lovable.app/assets/gate-Bp-dmRAk.jpg" alt="Automação de Portões" loading="lazy">
+          <span class="service-code">GT-04</span>
+          <div class="cs-caption"><b>Automação de Portões</b><span>Motores robustos com abertura por aplicativo, tag ou reconhecimento facial — sem atrito no fluxo.</span></div>
+        </div>
+        <div class="carousel-slide">
+          <div class="cs-bg" style="background-image:url('https://pontotechpe.lovable.app/assets/cerca-eletrica-B-QEZUhd.jpg')"></div>
+          <img src="https://pontotechpe.lovable.app/assets/cerca-eletrica-B-QEZUhd.jpg" alt="Cerca Elétrica" loading="lazy">
+          <span class="service-code">CE-05</span>
+          <div class="cs-caption"><b>Cerca Elétrica</b><span>Perímetros eletrificados com central inteligente, choque controlado e alerta instantâneo.</span></div>
+        </div>
+        <div class="carousel-slide">
+          <div class="cs-bg" style="background-image:url('https://pontotechpe.lovable.app/assets/alarmes-BZuv22G7.jpg')"></div>
+          <img src="https://pontotechpe.lovable.app/assets/alarmes-BZuv22G7.jpg" alt="Alarmes" loading="lazy">
+          <span class="service-code">AL-06</span>
+          <div class="cs-caption"><b>Alarmes</b><span>Sensores premium com central monitorada 24h e notificações em tempo real no seu celular.</span></div>
+        </div>
+        <div class="carousel-slide">
+          <div class="cs-bg" style="background-image:url('https://pontotechpe.lovable.app/assets/rede-DHQUkwh_.jpg')"></div>
+          <img src="https://pontotechpe.lovable.app/assets/rede-DHQUkwh_.jpg" alt="Rede Estruturada" loading="lazy">
+          <span class="service-code">RE-07</span>
+          <div class="cs-caption"><b>Rede Estruturada</b><span>Cabeamento certificado, racks organizados e Wi‑Fi de alta densidade para uso intenso.</span></div>
+        </div>
+        <div class="carousel-slide">
+          <div class="cs-bg" style="background-image:url('https://pontotechpe.lovable.app/__l5e/assets-v1/6de39307-35ed-470e-97fc-70dd5ffe0ce0/control-id-facial.webp')"></div>
+          <img src="https://pontotechpe.lovable.app/__l5e/assets-v1/6de39307-35ed-470e-97fc-70dd5ffe0ce0/control-id-facial.webp" alt="Relógio de Ponto Control iD" loading="lazy">
+          <span class="service-code">PT-08</span>
+          <div class="cs-caption"><b>Relógio de Ponto</b><span>Marcação biométrica, facial e RFID com gestão de jornada em nuvem e conformidade legal.</span></div>
+        </div>
+        <div class="carousel-slide">
+          <div class="cs-bg" style="background-image:url('https://pontotechpe.lovable.app/assets/catracas-BftUPgJB.jpg')"></div>
+          <img src="https://pontotechpe.lovable.app/assets/catracas-BftUPgJB.jpg" alt="Catracas de Acesso" loading="lazy">
+          <span class="service-code">TR-09</span>
+          <div class="cs-caption"><b>Catracas de Acesso</b><span>Catracas robustas para academias, condomínios, empresas e comércios de alto fluxo.</span></div>
+        </div>
+      </div>
+
+      <button class="carousel-arrow prev" id="carPrev" aria-label="Anterior">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <button class="carousel-arrow next" id="carNext" aria-label="Próximo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+
+      <div class="carousel-dots" id="carDots"></div>
+    </div>
+
+    <div class="reveal cta-band">
+      <div>
+        <h3>Projeto sob medida</h3>
+        <p>Receba uma proposta personalizada para seu condomínio ou empresa.</p>
+      </div>
+      <a href="https://wa.me/5581986879234?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Pontotech%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn btn-primary" target="_blank" rel="noopener">Solicitar agora</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============ CASE STUDY ============ -->
+<section id="cases">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">CASE REAL</div>
+      <h2>Condomínio Reserva Alameda Figueira</h2>
+      <p>Um exemplo real de instalação Pontotech: poste de segurança com CFTV integrado, sinalização de monitoramento e central de atendimento local.</p>
+    </div>
+
+    <div class="case-grid reveal">
+      <div class="case-media">
+        <div class="case-media-bg" style="background-image:url('assets/images/case-condominio-seguro.jpeg')"></div>
+        <img src="assets/images/case-condominio-seguro.jpeg" alt="Poste de segurança Pontotech instalado no Condomínio Reserva Alameda Figueira, com câmera CFTV e sinalização de monitoramento 24h" loading="lazy">
+      </div>
+      <div class="case-copy">
+        <h3>Condomínio seguro, tecnologia visível</h3>
+        <p>Tecnologia, controle e tranquilidade 24 horas para moradores e famílias — com identificação visual clara de que o local é monitorado.</p>
+        <div class="case-points">
+          <div class="case-point">
+            <div class="cp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 8l6 3v4l-6 3V8z"/><rect x="9" y="9" width="12" height="8" rx="1.5"/></svg></div>
+            <div><b>Monitoramento 24h</b><span>Acesso controlado e registro de todas as entradas e saídas.</span></div>
+          </div>
+          <div class="case-point">
+            <div class="cp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M9.5 12l1.8 1.8L15 10"/></svg></div>
+            <div><b>Mais segurança</b><span>Tecnologia de ponta para proteger o que realmente importa.</span></div>
+          </div>
+          <div class="case-point">
+            <div class="cp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="12" cy="10" r="2.6"/><path d="M8 17c.7-2 2-3 4-3s3.3 1 4 3"/></svg></div>
+            <div><b>Controle total</b><span>Gestão de acessos de moradores, visitantes e prestadores de serviço.</span></div>
+          </div>
+          <div class="case-point">
+            <div class="cp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg></div>
+            <div><b>Tecnologia avançada</b><span>Equipamentos modernos e integrados para máxima eficiência.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section id="processo">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">COMO FUNCIONA</div>
+      <h2>Do diagnóstico à instalação, sem complicação</h2>
+      <p>Um processo simples e transparente, do primeiro contato até o pós-venda.</p>
+    </div>
+    <div class="process-grid reveal">
+      <div class="process-step">
+        <span class="ps-num">01</span>
+        <h3>Diagnóstico gratuito</h3>
+        <p>Visitamos o local (ou avaliamos remotamente) e entendemos a real necessidade de segurança do espaço.</p>
+      </div>
+      <div class="process-step">
+        <span class="ps-num">02</span>
+        <h3>Projeto personalizado</h3>
+        <p>Especificamos os equipamentos ideais e enviamos uma proposta clara, sem letras miúdas.</p>
+      </div>
+      <div class="process-step">
+        <span class="ps-num">03</span>
+        <h3>Instalação certificada</h3>
+        <p>Nossa equipe técnica executa a obra com precisão e testa tudo antes da entrega.</p>
+      </div>
+      <div class="process-step">
+        <span class="ps-num">04</span>
+        <h3>Suporte contínuo</h3>
+        <p>Acompanhamos o sistema depois da instalação, com suporte técnico dedicado.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DIFERENCIAIS ============ -->
+<section id="diferenciais">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">POR QUE A PONTOTECH</div>
+      <h2>Diferenciais que importam no dia a dia</h2>
+    </div>
+    <div class="diff-grid reveal">
+      <div class="diff">
+        <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M9.5 12l1.8 1.8L15 10"/></svg></div>
+        <h3>Instalação profissional</h3>
+        <p>Equipe técnica certificada, com acabamento impecável e cuidado com cada detalhe da obra.</p>
+      </div>
+      <div class="diff">
+        <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg></div>
+        <h3>Atendimento rápido</h3>
+        <p>Resposta em até 24 horas, com visita técnica agendada conforme sua disponibilidade.</p>
+      </div>
+      <div class="diff">
+        <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12a8 8 0 0116 0M4 12a8 8 0 008 8M20 12a8 8 0 01-8 8" stroke-dasharray="1 3"/><circle cx="12" cy="12" r="2.4"/></svg></div>
+        <h3>Suporte técnico dedicado</h3>
+        <p>Equipe própria acompanhando cada sistema para garantir uptime máximo no seu negócio.</p>
+      </div>
+      <div class="diff">
+        <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="7" height="7" rx="1.2"/><rect x="13" y="4" width="7" height="7" rx="1.2"/><rect x="4" y="13" width="7" height="7" rx="1.2"/><rect x="13" y="13" width="7" height="7" rx="1.2"/></svg></div>
+        <h3>Equipamentos modernos</h3>
+        <p>Trabalhamos apenas com marcas de referência mundial em segurança eletrônica.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PARTNERS ============ -->
+<section id="parceiros" style="padding-top:0;">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">NOSSOS PARCEIROS</div>
+      <h2>Marcas que trabalhamos</h2>
+    </div>
+  </div>
+  <div class="marquee reveal">
+    <div class="marquee-track" id="marqueeTrack">
+      <span class="marquee-item"><img src="https://pontotechpe.lovable.app/__l5e/assets-v1/a0d7b71a-70a3-44c0-b624-37d7061ec1fc/intelbras-logo-v2.jpg" alt="Intelbras" loading="lazy" onerror="this.parentElement.classList.add('text-fallback'); this.remove(); this.parentElement.textContent='Intelbras';"></span>
+      <span class="marquee-item"><img src="https://pontotechpe.lovable.app/__l5e/assets-v1/6f8fe81b-fb74-41bb-8226-6a02c9f1df2d/controlid-logo-v2.jpg" alt="Control iD" loading="lazy" onerror="this.parentElement.classList.add('text-fallback'); this.remove(); this.parentElement.textContent='Control iD';"></span>
+      <span class="marquee-item"><img src="https://pontotechpe.lovable.app/__l5e/assets-v1/27496720-5cbc-49ac-8c24-47e169b280f3/henry-logo-v2.jpg" alt="Henry" loading="lazy" onerror="this.parentElement.classList.add('text-fallback'); this.remove(); this.parentElement.textContent='Henry';"></span>
+      <span class="marquee-item"><img src="https://pontotechpe.lovable.app/__l5e/assets-v1/e4d935c1-9a1f-488b-b73e-ea4bf1951dab/topdata-logo-v2.jpg" alt="Topdata" loading="lazy" onerror="this.parentElement.classList.add('text-fallback'); this.remove(); this.parentElement.textContent='Topdata';"></span>
+      <span class="marquee-item"><img src="https://pontotechpe.lovable.app/__l5e/assets-v1/6b1d3dee-3fb8-4399-8cbd-18b5ae25c28e/gamma7-logo.png" alt="Gamma 7" loading="lazy" onerror="this.parentElement.classList.add('text-fallback'); this.remove(); this.parentElement.textContent='Gamma 7';"></span>
+      <span class="marquee-item"><img src="https://pontotechpe.lovable.app/__l5e/assets-v1/b6b2a98e-2660-441b-a270-4281477607a0/acesso-solucoes-logo.png" alt="Acesso e Soluções" loading="lazy" onerror="this.parentElement.classList.add('text-fallback'); this.remove(); this.parentElement.textContent='Acesso & Soluções';"></span>
+      <span class="marquee-item"><img src="https://pontotechpe.lovable.app/__l5e/assets-v1/ee3edacb-0385-4dc0-8fbf-a89aabac522f/secullum-logo-v2.jpg" alt="Secullum" loading="lazy" onerror="this.parentElement.classList.add('text-fallback'); this.remove(); this.parentElement.textContent='Secullum';"></span>
+      <span class="marquee-item"><img src="https://pontotechpe.lovable.app/__l5e/assets-v1/4858db30-3121-4d0a-bf59-1742ba742bcc/jfl-logo.svg" alt="JFL" loading="lazy" onerror="this.parentElement.classList.add('text-fallback'); this.remove(); this.parentElement.textContent='JFL';"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CLIENTS / TESTIMONIALS ============ -->
+<section id="clientes">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">QUEM CONFIA</div>
+      <h2>O que dizem sobre a Pontotech</h2>
+      <p>Depoimentos ilustrativos — em breve, substituídos pelas avaliações reais dos nossos clientes.</p>
+    </div>
+
+    <div class="testimonials-grid reveal">
+      <div class="testimonial">
+        <div class="t-stars">★★★★★</div>
+        <p class="t-quote">"A instalação foi rápida e a equipe muito atenciosa. Hoje monitoramos tudo pelo celular, com muito mais tranquilidade para os moradores."</p>
+        <div class="t-author">
+          <div class="t-avatar">RA</div>
+          <div><b>Renata Alves</b><span>Síndica · Condomínio Vista Verde</span></div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="t-stars">★★★★★</div>
+        <p class="t-quote">"Trocamos o relógio de ponto antigo pelo sistema em nuvem da Pontotech e a gestão da equipe ficou muito mais simples e confiável."</p>
+        <div class="t-author">
+          <div class="t-avatar">CM</div>
+          <div><b>Carlos Menezes</b><span>RH · Padaria Sabor & Cia</span></div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="t-stars">★★★★★</div>
+        <p class="t-quote">"Suporte técnico rápido sempre que precisamos. Recomendo para quem quer segurança de verdade, sem enrolação."</p>
+        <div class="t-author">
+          <div class="t-avatar">JT</div>
+          <div><b>Juliana Torres</b><span>Proprietária · Academia Corpo & Movimento</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">DÚVIDAS FREQUENTES</div>
+      <h2>Perguntas que recebemos com frequência</h2>
+    </div>
+    <div class="faq-list reveal">
+      <details class="faq-item" open>
+        <summary>Quanto tempo leva uma instalação?</summary>
+        <p>Depende do porte do projeto. A maioria das instalações residenciais e comerciais é concluída em 1 a 3 dias úteis após a aprovação do orçamento.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Vocês atendem toda a Região Metropolitana do Recife?</summary>
+        <p>Sim, atendemos condomínios, comércios e empresas em toda a Grande Recife e região.</p>
+      </details>
+      <details class="faq-item">
+        <summary>O relógio de ponto é homologado?</summary>
+        <p>Sim. Trabalhamos com equipamentos homologados conforme a Portaria 671 do Ministério do Trabalho.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Como funciona o suporte técnico?</summary>
+        <p>Nosso time responde chamados por WhatsApp e telefone, com suporte prioritário 24/7 para sistemas críticos de segurança.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Consigo monitorar as câmeras pelo celular?</summary>
+        <p>Sim. Todas as soluções de CFTV que instalamos têm aplicativo de monitoramento remoto, de qualquer lugar.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contato" class="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="kicker">FALE COM A GENTE</div>
+        <h2>Vamos proteger o que importa</h2>
+        <p>Solicite um diagnóstico gratuito. Nossa equipe responde em até 2 horas com uma proposta personalizada para o seu espaço.</p>
+
+        <div class="contact-links">
+          <a class="contact-link" href="https://wa.me/5581986879234?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Pontotech%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+            <div class="ci"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0012.05 4C7.1 4 3.07 8.03 3.07 12.98c0 1.62.44 3.19 1.26 4.58L3 21.5l4.06-1.3a8.98 8.98 0 004.99 1.48h.01c4.95 0 8.98-4.03 8.98-8.98a8.9 8.9 0 00-2.44-6.38z"/></svg></div>
+            <div class="ct"><b>WhatsApp</b><span>+55 81 98687-9234</span></div>
+          </a>
+          <a class="contact-link" href="https://instagram.com/pontotechoficial" target="_blank" rel="noopener">
+            <div class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></div>
+            <div class="ct"><b>Instagram</b><span>@pontotechoficial</span></div>
+          </a>
+          <a class="contact-link" href="tel:+5581986879234">
+            <div class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 5c0-1 1-2 2-2h2l2 5-2 1a12 12 0 006 6l1-2 5 2v2c0 1-1 2-2 2C10 19 4 13 4 5z"/></svg></div>
+            <div class="ct"><b>Ligar agora</b><span>+55 81 98687-9234</span></div>
+          </a>
+          <button type="button" class="contact-link contact-copy" id="copyPhoneBtn">
+            <div class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg></div>
+            <div class="ct"><b id="copyPhoneLabel">Copiar número</b><span>+55 81 98687-9234</span></div>
+          </button>
+        </div>
+      </div>
+
+      <form class="quote-form reveal" id="quoteForm">
+        <h3>Peça seu orçamento</h3>
+        <p>Preencha os dados e finalize a solicitação diretamente pelo WhatsApp.</p>
+
+        <div class="field">
+          <label for="qname">Nome</label>
+          <input id="qname" name="name" type="text" placeholder="Seu nome" required>
+        </div>
+        <div class="field">
+          <label for="qservice">Serviço de interesse</label>
+          <select id="qservice" name="service">
+            <option>Controle de Acesso Facial</option>
+            <option>CFTV</option>
+            <option>Interfonia</option>
+            <option>Automação de Portões</option>
+            <option>Cerca Elétrica</option>
+            <option>Alarmes</option>
+            <option>Rede Estruturada</option>
+            <option>Relógio de Ponto</option>
+            <option>Catracas de Acesso</option>
+            <option>Dispenser de Álcool Gel</option>
+            <option>Outro</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="qmsg">Mensagem</label>
+          <textarea id="qmsg" name="msg" placeholder="Conte um pouco sobre o seu condomínio ou empresa"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0012.05 4C7.1 4 3.07 8.03 3.07 12.98c0 1.62.44 3.19 1.26 4.58L3 21.5l4.06-1.3a8.98 8.98 0 004.99 1.48h.01c4.95 0 8.98-4.03 8.98-8.98a8.9 8.9 0 00-2.44-6.38z"/></svg>
+          Enviar pelo WhatsApp
+        </button>
+        <p class="form-note">Ao enviar, você será redirecionado ao WhatsApp com a mensagem pronta.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img class="brand-mark" src="assets/images/logo-pontotech.jpg" alt="Logo Pontotech">
+        <span>PONTOTECH · SEGURANÇA &amp; TECNOLOGIA</span>
+      </div>
+      <div class="footer-social">
+        <a href="https://instagram.com/pontotechoficial" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+        <a href="https://wa.me/5581986879234" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0012.05 4C7.1 4 3.07 8.03 3.07 12.98c0 1.62.44 3.19 1.26 4.58L3 21.5l4.06-1.3a8.98 8.98 0 004.99 1.48h.01c4.95 0 8.98-4.03 8.98-8.98a8.9 8.9 0 00-2.44-6.38z"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-legal">© 2026 PONTOTECH · SEGURANÇA ELETRÔNICA · TODOS OS DIREITOS RESERVADOS</div>
+    <div class="footer-credit">Powered by <a href="https://criatech.online" target="_blank" rel="noopener">Criatech</a></div>
+  </div>
+</footer>
+
+<!-- ============ FLOATING ACTIONS ============ -->
+<div class="fab">
+  <div class="fab-item">
+    <a class="fab-btn fab-ai" href="https://assistente-ponto-tech.lovable.app" target="_blank" rel="noopener" aria-label="Assistente virtual com IA">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/><circle cx="12" cy="12" r="4.2"/></svg>
+    </a>
+    <span class="fab-label">Assistente IA</span>
+  </div>
+  <div class="fab-item">
+    <a class="fab-btn fab-wa" href="https://wa.me/5581986879234?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Pontotech%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+      <svg viewBox="0 0 32 32" fill="#fff"><path d="M16.01 2.67C8.65 2.67 2.67 8.65 2.67 16c0 2.52.7 4.87 1.9 6.88L2.67 29.3l6.6-1.86c1.94 1.06 4.16 1.66 6.53 1.66h.01c7.35 0 13.33-5.98 13.33-13.33S23.37 2.67 16.01 2.67zm0 24.2h-.01c-2.13 0-4.21-.57-6.02-1.65l-.43-.26-4.53 1.28 1.25-4.4-.28-.45a10.9 10.9 0 01-1.68-5.84c0-6.03 4.9-10.93 10.93-10.93s10.93 4.9 10.93 10.93-4.9 10.92-10.93 10.92zm5.99-8.17c-.33-.16-1.93-.95-2.23-1.06-.3-.11-.52-.16-.74.16-.22.33-.85 1.06-1.04 1.27-.19.22-.38.24-.71.08-.33-.16-1.38-.51-2.63-1.63-.97-.87-1.63-1.94-1.82-2.27-.19-.33-.02-.5.14-.67.15-.14.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.16-.74-1.79-1.01-2.45-.27-.65-.54-.56-.74-.57-.19-.01-.41-.01-.63-.01s-.57.08-.87.41c-.3.33-1.14 1.12-1.14 2.73s1.17 3.17 1.33 3.39c.16.22 2.31 3.53 5.61 4.95.78.34 1.39.54 1.87.69.79.25 1.5.22 2.07.13.63-.09 1.93-.79 2.2-1.55.27-.76.27-1.42.19-1.55-.08-.14-.3-.22-.63-.38z"/></svg>
+    </a>
+    <span class="fab-label">Fale no WhatsApp</span>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
