@@ -118,10 +118,12 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 .nav .wrap{display:flex; align-items:center; justify-content:space-between; gap:24px;}
 
-.brand{display:flex; align-items:center; gap:10px;}
-.brand .brand-mark{width:38px; height:38px; flex:none; border-radius:50%; object-fit:cover; border:1px solid var(--line-strong);}
-.brand-name{font-family:var(--font-display); font-weight:700; font-size:1.05rem; letter-spacing:0.01em;}
-.brand-name span{color:var(--cyan);}
+.brand{display:flex; align-items:center; flex-shrink:0;}
+.brand .brand-mark{display:block; width:180px; height:auto; object-fit:contain;}
+.nav.scrolled .brand-mark{filter:drop-shadow(0 1px 2px rgba(0,0,0,.65));}
+@media (max-width:720px){
+  .brand .brand-mark{width:150px;}
+}
 
 .nav-links{display:flex; align-items:center; gap:2px;}
 .nav-links a.nav-link{
